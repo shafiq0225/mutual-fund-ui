@@ -1,0 +1,94 @@
+*,
+*:focus {
+    outline: none
+}
+
+
+h1 {
+    color: #146ef5;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form {
+    margin: 0 auto;
+    font-family: sans-serif;
+    background: #fff;
+    display: flex;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-item {
+    position: relative;
+    margin: 15px
+}
+
+.form-item input {
+    display: block;
+    width: 250px;
+    height: 40px;
+    background: transparent;
+    border: solid 1px #ccc;
+    transition: all .3s ease;
+    padding: 0 15px
+}
+
+.form-item input:focus,
+.form-item input:hover {
+    border-color: #146ef5
+}
+
+.form-item label {
+    position: absolute;
+    cursor: text;
+    z-index: 2;
+    top: 13px;
+    left: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    background: #fff;
+    padding: 0 10px;
+    color: #999;
+    transition: all .3s ease
+}
+
+.form-item input:focus+label,
+.form-item input:valid+label {
+    font-size: 11px;
+    top: -5px
+}
+
+.form-item input:focus+label,
+.form-item input:hover+label {
+    color: #146ef5
+}
+
+i.fa.fa-caret-down {
+    margin-top: -27px;
+    margin-left: 213px;
+}
+
+.button-get {
+    background-color: #146ef5;
+    border: 1px solid #d5d9d9;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    line-height: 29px;
+    width: 100px;
+    margin-top: 4px;
+}
+
+.button-get:hover {
+    background-color: #0055d4;
+    box-shadow: 0 1px 1px #08080814, 0 1px 1px #08080833, inset 0 6px 12px #ffffff1f, inset 0 1px 1px #fff3;
+}
+
+.button-get:focus {
+    border-color: #008296;
+    box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+    outline: 0;
+}
