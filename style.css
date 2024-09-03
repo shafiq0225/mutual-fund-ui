@@ -51,7 +51,7 @@ h1 {
     font-weight: bold;
     background: #fff;
     padding: 0 10px;
-    color: #999;
+    color: #146ef5;
     transition: all .3s ease
 }
 
@@ -62,6 +62,11 @@ h1 {
 
 .form-item a input {
     cursor: pointer;
+}
+
+.form-item a:hover + label, 
+.form-item input:hover + label {
+    color: black;
 }
 
 i.fa.fa-caret-down {
