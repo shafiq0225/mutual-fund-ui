@@ -55,15 +55,13 @@ h1 {
     transition: all .3s ease
 }
 
-.form-item input:focus+label,
-.form-item input:valid+label {
+.form-item label {
     font-size: 11px;
     top: -5px
 }
 
-.form-item input:focus+label,
-.form-item input:hover+label {
-    color: #146ef5
+.form-item a input {
+    cursor: pointer;
 }
 
 i.fa.fa-caret-down {
